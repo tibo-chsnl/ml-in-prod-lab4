@@ -32,3 +32,5 @@ Run unit and integration tests:
 ```bash
 pytest tests/test_unit.py tests/test_integration.py
 ```
+
+## Deployement Statut : Active
