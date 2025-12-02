@@ -26,4 +26,4 @@ EXPOSE 5000
 # Run the application using Gunicorn
 # We use "app:create_app()" factory pattern
 # Bind to 0.0.0.0:$PORT (defaulting to 5000 if PORT is not set)
-CMD gunicorn -w 4 -b 0.0.0.0:${PORT:-5000} "app:create_app()"
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "app:create_app()"]
