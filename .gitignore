@@ -1,0 +1,7 @@
+.env
+.env.production
+__pycache__/
+.pytest_cache/
+*.pyc
+instance/
+.DS_Store
